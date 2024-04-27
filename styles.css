@@ -88,3 +88,10 @@ button:focus {
   color: black;
   background-color: #c4f82a;
 }
+
+@media screen and (max-width: 375px) {
+  .window__content {
+    max-width: 279px;
+    padding: 24px;
+  }
+}
